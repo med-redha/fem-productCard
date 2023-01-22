@@ -24,6 +24,7 @@
   .ch_img {
     max-width: 20rem;
     width: 100%;
+    object-fit: fill;
     height: 15rem;
     border-radius: 0.625rem 0.625rem 0rem 0rem;
   }
