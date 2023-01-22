@@ -10,7 +10,12 @@
 <body>
     <div class="sections_holder">
         <div class="img_holder">
-            <img class="ch_img" src="./images/image-product-desktop.jpg" alt="">
+            <picture>
+                <source media="(min-width: 701px)" srcset="./images/image-product-desktop.jpg">
+                <source media="(min-width: 250px)" srcset="./images/image-product-mobile.jpg">
+                <img class="ch_img" src="./images/image-product-mobile.jpg" alt="display image">
+
+            </picture>
         </div>
         <div class="text_section">
             <div class="titles_section">
